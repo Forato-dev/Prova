@@ -1,0 +1,196 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #6d4c3b;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#container {
+    width: 70vw;
+    height: 75vh;
+    background-color: #8b6444;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px 1px;
+}
+
+#header {
+    width: 100%;
+    height: 17vh;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    color: #fff;
+    font-family: "Permanent Marker", cursive;
+}
+
+#header img {
+    width: 10vw;
+}
+
+#dados {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#email {
+    width: 45%;
+    height: 5vh;
+    margin-top: 2vh;
+    border: 2px solid #fff;
+    border-radius: 11px;
+    display: flex;
+    align-items: center;
+}
+
+#email img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+}
+
+#email_area {
+    border: 1px solid #fff;
+    border-radius: 0px 8px 8px 0px;
+    width: 100%;
+    height: 100%;
+    padding-left: 1vw;
+    font-size: 20px;
+}
+
+#senha {
+    border: 2px solid #fff;
+    border-radius: 11px;
+    width: 45%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+#senha img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin-left: 1.36vh;
+    margin-right: 1.36vh;
+}
+
+#senha_area {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    border-radius: 0px 9px 9px 0px;
+    padding-left: 1vw;
+    font-size: 20px;
+}
+
+#confirmesenha {
+    border: 2px solid #fff;
+    border-radius: 11px;
+    width: 45%;
+    height: 5vh;
+    display: flex;
+    align-items: center;
+    margin-top: 2vh;
+}
+
+#confirmesenha img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    margin-left: 1.36vh;
+    margin-right: 1.36vh;
+}
+
+#confirme_area {
+    width: 100%;
+    height: 100%;
+    border: 1px solid #fff;
+    border-radius: 0px 9px 9px 0px;
+    padding-left: 1vw;
+    font-size: 20px;
+}
+
+#lembrar {
+    margin-top: 2vh;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+}
+
+#lembrar label {
+    font-size: 30px;
+    color: #fff;
+    margin-left: 1vw;
+}
+
+#lembrar_senha {
+    margin-left: 19.3vw;
+}
+
+input[type="checkbox"] {
+    width: 21px;
+    height: 21px;
+    appearance: none;
+    border: 2px solid #fff;
+    border-radius: 3px;
+}
+
+input[type="checkbox"]:hover {
+    border: 2px solid black;
+}
+
+input[type="checkbox"]:checked {
+    background-color: #fff;
+}
+
+#login_button {
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#button {
+    width: 35%;
+    height: 100%;
+    box-shadow: 0px 0px 20px 0.5px;
+    color: black;
+    border-radius: 20px;
+    border-style: none;
+    background-color: #6d4c3b;
+}
+
+#button a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6d4c3b;
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    border-style: none;
+    border-radius: 20px;
+    font-size: 30px;
+    text-decoration: none;
+}
